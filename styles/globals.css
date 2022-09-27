@@ -1,0 +1,38 @@
+html,
+body {
+  background-color: rgb(206, 237, 218);
+  padding: 30px;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+table{
+  padding: 20px;
+  background-color: rgb(140, 209, 186);
+  border-radius: 20px;
+}
+th{
+  padding: 5px;
+  background-color: rgb(8, 52, 25);
+  color: white;
+  border-radius: 5px;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
