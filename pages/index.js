@@ -1,6 +1,5 @@
 export default function Posts(props) {
   return (
-    <h3>Posts</h3>
     <table>
       <thead>
         <tr>
