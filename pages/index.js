@@ -1,5 +1,6 @@
 export default function Posts(props) {
   return (
+    <h3 class="tag">Posts</h3>
     <table>
       <thead>
         <tr>
